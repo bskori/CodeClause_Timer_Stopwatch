@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+
+body {
+  background-color: #2c1338;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#heading{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 35px;
+}
+
+.time{
+  display: flex;
+    margin-bottom: -25px;
+    gap: 40px;
+}
+
+#container {
+  color: #ffffff;
+}
+
+.digit {
+  
+  font-size: 182px;
+  font-weight: bold;
+  font-family: 'Inter', sans-serif;
+}
+
+
+
+.txt {
+  display: flex;
+    font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  margin-bottom: 70px;
+}
+
+.btn-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.btn {
+    height: 62px;
+    width: 203px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 26px;
+    border-radius: 43px;
+    background-color: #e57cd8;
+    border: none;
+    color: white;
+    margin-inline: 15px;
+}
+
+.btn:hover {
+  background-color: #ffffff42;
+}
+
+.txt_hr{
+  margin: 0px 88px
+}
+
+.txt_min{
+  margin: 0px 120px;
+}
+
+.txt_sec{
+  margin: 0px 68px;
+}
+
+.txt_csec{
+  margin: 0px 96px;
+}
